@@ -1,1 +1,5 @@
-1
+AWS S3 is a regional service not global. the data is physically stored in that region's data centers. 
+AWS automatically replicates data across mutliple Availability Zones within that region , but not across regions by default.
+S3 also supports SSL for secure data transfer and data encryption.
+you can also control access to the data using IAM and also specify object permissions using s3 policies. 
+AWS s3 is highly scalable storage size can be 
